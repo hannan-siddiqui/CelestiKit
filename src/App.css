@@ -1,0 +1,7 @@
+.morphic{
+border: 1px solid rgb(255, 0, 0);
+background: #757474;
+box-shadow: 1px 1px 5px #878787,
+             -1px -1px 5px #ffffff;
+}
+
