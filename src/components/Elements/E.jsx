@@ -32,7 +32,7 @@ const E = ({ data }) => {
           className="hover:bg-neutral-950 bg-neutral-800 w-[110px] rounded-lg py-3 text-xl font-bold flex flex-row justify-center items-center absolute top-[92%] translate-x-[-100%] left-[94%] translate-y-[-100%] text-neutral-200 opacity-0 group-hover:opacity-100 transition-opacity duration-200 cursor-pointer"
         >
           <FaCode />
-          <span className="ml-2">Get Code</span>
+          <span className="ml-2">Code</span>
         </div>
       </div>
 
@@ -59,7 +59,7 @@ const E = ({ data }) => {
             {/* Code Content */}
             <div className="flex mt-20 justify-center ">
               <pre
-                className="overflow-y-scroll w-[80%] h-[500px] break-words p-4 border border-neutral-700 rounded-md bg-neutral-800"
+                className="overflow-y-scroll w-[80%] h-[400px] break-words p-4 border border-neutral-700 rounded-md bg-neutral-800"
                 style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}
               >
                 <code>{data.code}</code>
