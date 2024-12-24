@@ -9,7 +9,7 @@ const Home = () => {
       <div className="flex flex-col justify-center items-center gap-y-6 px-4 ">
 
         <div className="mt-6 text-2xl text-neutral-700 text-center">
-          by the invictus
+          by the Darth Vader
         </div>
 
         <div
